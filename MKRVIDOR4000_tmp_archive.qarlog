@@ -1,0 +1,24 @@
+Quartus Prime Archive log --	//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/projects/MKRVIDOR4000_template/MKRVIDOR4000_tmp_archive.qarlog
+
+Archive:	//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/projects/MKRVIDOR4000_template/MKRVIDOR4000_tmp_archive.qar
+Date:		Mon Sep 23 23:13:11 2019
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/constraints/MKRVIDOR4000/vidor_s.sdc
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/ip/SYSTEM_PLL/SYSTEM_PLL.ppf
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/ip/SYSTEM_PLL/SYSTEM_PLL.qip
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/ip/SYSTEM_PLL/SYSTEM_PLL.v
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/projects/MKRVIDOR4000_template/MKRVIDOR4000.qpf
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/projects/MKRVIDOR4000_template/MKRVIDOR4000.qsf
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/projects/MKRVIDOR4000_template/MKRVIDOR4000_assignment_defaults.qdf
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/projects/MKRVIDOR4000_template/MKRVIDOR4000_top.v
+/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/constraints/MKRVIDOR4000/vidor_s_pins.qsf
+	======= Total: 9 files to archive =======
+
+
+
+******* Archived project restoration attempt on Mon Sep 23 23:13:22 2019
+Source archive file:	//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/projects/MKRVIDOR4000_template/MKRVIDOR4000_tmp_archive.qar
+Archive was extracted into	//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/Vidor-Blinky/
+		 - successfully.

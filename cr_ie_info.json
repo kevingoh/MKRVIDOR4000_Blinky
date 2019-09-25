@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 7",
+		"os_version" : "6.1"
+	},
+	"error" : {
+		"executable" : "quartus_sh",
+		"comment" : "none",
+		"error_message" : "file_path.unc() || file_path.has_drive()",
+		"source_file" : "/quartus/prj/arc/arc_utilities.cpp",
+		"line" : "492",
+		"stack_trace" : "\t0x7fecbe49fef: prj_arc_tcl + 0x29fef (?map_file@IMPL@ARC_QAR_FILE_MAPPER@@AEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$QTL_HASH@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$QTL_OPS@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@@@Z + 0x6cf)\n\t0x7fecbe4a3ee: prj_arc_tcl + 0x2a3ee (?map_files@IMPL@ARC_QAR_FILE_MAPPER@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@4@AEAV?$QTL_HASH@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$QTL_OPS@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@@@Z + 0x5e)\n\t0x7fecbe4a375: prj_arc_tcl + 0x2a375 (?map_files@ARC_QAR_FILE_MAPPER@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@AEAV?$QTL_HASH@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$QTL_OPS@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@@@Z + 0x25)\n\t0x7fecbe4a2c7: prj_arc_tcl + 0x2a2c7 (?map_files@ARC_DEFAULT_QAR_FILE_MAPPER@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@AEAV?$QTL_HASH@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$QTL_OPS@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@@@Z + 0xf7)\n\t0x7fecbe3bb6f: prj_arc_tcl + 0x1bb6f (?create_archive_using_common_dir@ARC_HUF_CODEC@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@0PEAVARC_MESSENGER@@AEB_NPEBD@Z + 0x7ff)\n\t0x7fecbe371c1: prj_arc_tcl + 0x171c1 (?arc_start_general_archive@ARC_MANAGER_TCL@@SA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD_N2PEAUARC_DRL_ARCHIVE_INFO@@@Z + 0xed1)\n\t0x7fecbe5366b: prj_arc_tcl + 0x3366b (arc_drl_archive + 0x14b)\n\t0x7fee80f4bbb: SYS_AFM + 0x4bbb (?qar@AFM_FILE_INFO_LIST@@QEAA_NPEBD_N01@Z + 0x2fb)\n\t0x7fee80f9497: SYS_AFM + 0x9497 (afm_qar + 0x717)\n\t 0x735c4410: tcl86 + 0x14410 (TclInvokeStringCommand + 0xf0)\n\t 0x735c61e2: tcl86 + 0x161e2 (TclNRRunCallbacks + 0x62)\n\t 0x735c7a65: tcl86 + 0x17a65 (TclEvalEx + 0xa65)\n\t 0x73656f8b: tcl86 + 0xa6f8b (Tcl_FSEvalFileEx + 0x22b)\n\t 0x73655646: tcl86 + 0xa5646 (Tcl_EvalFile + 0x36)\n\t0x7fed35c2606: comp_qexe + 0x12606 (?qexe_evaluate_tcl_script@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z + 0x376)\n\t0x7fed35c1864: comp_qexe + 0x11864 (qexe_do_tcl + 0x334)\n\t0x7fed35c5fe6: comp_qexe + 0x15fe6 (qexe_run + 0x2d6)\n\t0x7fed35c6e51: comp_qexe + 0x16e51 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x13f2e4ed2: quartus_sh + 0x4ed2 (?qsh_main@@YAHHPEAPEBD@Z + 0x52)\n\t0x7fef8792e98: CCL_MSG + 0x12e98 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7fef879467e: CCL_MSG + 0x1467e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7fef90c6660: ccl_mem + 0x16660 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7fef8792761: CCL_MSG + 0x12761 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x13f2e5396: quartus_sh + 0x5396 (__tmainCRTStartup + 0x10e)\n\t 0x772f59cc: kernel32 + 0x159cc (BaseThreadInitThunk + 0xc)\n\t 0x7742a560: ntdll + 0x2a560 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "ARC_TCL"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "18.1.0",
+		"build" : "625",
+		"edition" : "Lite Edition"
+	}
+}

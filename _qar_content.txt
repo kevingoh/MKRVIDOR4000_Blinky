@@ -1,0 +1,12 @@
+MKRVIDOR4000_top.v
+../../ip/SYSTEM_PLL/SYSTEM_PLL.ppf
+../../ip/SYSTEM_PLL/SYSTEM_PLL.v
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/ip/SYSTEM_PLL/SYSTEM_PLL.qip
+../../constraints/MKRVIDOR4000/vidor_s.sdc
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/ip/SYSTEM_PLL/SYSTEM_PLL.v
+//vmware-host/Shared Folders/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/constraints/MKRVIDOR4000/vidor_s.sdc
+/Documents/Projects/MKR_Vidor_4000/VidorFPGA-master/constraints/MKRVIDOR4000/vidor_s_pins.qsf
+MKRVIDOR4000.qsf
+MKRVIDOR4000_assignment_defaults.qdf
+../../ip/SYSTEM_PLL/SYSTEM_PLL.qip
+MKRVIDOR4000.qpf
